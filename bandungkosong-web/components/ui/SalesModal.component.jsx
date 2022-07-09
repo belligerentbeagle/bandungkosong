@@ -1,18 +1,33 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import SalesForm from "./SalesForm.component";
+import recipesData from "../../data/recipes.json";
 
-const Modal = ({ hideModalHandler, addIngredient }) => {
-  const nameInputRef = useRef(null);
-  const quantityInputRef = useRef(null);
+const SalesModal = ({ hideModalHandler }) => {
+  const recipes = recipesData;
 
-  const addIngredientHandler = (event) => {
-    event.preventDefault();
+  const [week, setWeek] = useState();
+  const [inputFields, setInputFields] = useState(
+    recipes.map((recipe) => ({ name: recipe.name, quantity: 0 }))
+  );
 
-    addIngredient({
-      name: nameInputRef.current.value,
-      quantity: quantityInputRef.current.value,
-    });
+  const formChangeHandler = (index, event) => {
+    let data = [...inputFields];
+    data[index][event.target.name] = event.target.value;
+
+    setInputFields(data);
   };
 
+  const submitHandler = () => {
+    const csvContent =
+      "data:text/csv;charset=utf-8,week," +
+      recipes.map((recipe) => recipe.name).join(",") +
+      "\n" +
+      [week, ...inputFields.map((field) => field.quantity)].join(",");
+
+    window.open(encodeURI(csvContent));
+
+    hideModalHandler();
+  };
   return (
     <>
       <div className="overflow-y-auto overflow-x-hidden fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-9/12">
@@ -42,16 +57,19 @@ const Modal = ({ hideModalHandler, addIngredient }) => {
               </button>
             </div>
             <div className="p-6 space-y-6">
-              <input type="text" ref={nameInputRef} />
-              <input type="text" ref={quantityInputRef} />
+              <SalesForm
+                formChangeHandler={formChangeHandler}
+                inputFields={inputFields}
+                setWeek={setWeek}
+              ></SalesForm>
             </div>
             <div className="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200">
               <button
-                onClick={addIngredientHandler}
+                onClick={submitHandler}
                 type="button"
                 className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
               >
-                Add ingredient
+                Submit
               </button>
               <button
                 onClick={hideModalHandler}
@@ -73,4 +91,4 @@ const Modal = ({ hideModalHandler, addIngredient }) => {
   );
 };
 
-export default Modal;
+export default SalesModal;

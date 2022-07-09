@@ -1,16 +1,11 @@
 import { useState } from "react";
-import Modal from "./Modal.component";
-import ingredientsData from "../../data/ingredients.json";
+import SalesModal from "./SalesModal.component";
 
 const Data = () => {
-  const [ingredients, setIngredients] = useState(ingredientsData);
   const [isFormShown, setIsFormShown] = useState(false);
 
   const showModalHandler = () => setIsFormShown(true);
   const hideModalHandler = () => setIsFormShown(false);
-
-  const addIngredient = (ingredient) =>
-    setIngredients([...ingredients, ingredient]);
 
   return (
     <>
@@ -21,16 +16,13 @@ const Data = () => {
           onClick={showModalHandler}
         >
           <span className="text-xl">&#65291;</span>
-          <span>Import</span>
+          <span>Add Sales</span>
         </button>
         <div className="text-lg">for July</div>
       </div>
       <div className="h-5/6 w-full rounded-xl border"></div>
       {isFormShown && (
-        <Modal
-          hideModalHandler={hideModalHandler}
-          addIngredient={addIngredient}
-        ></Modal>
+        <SalesModal hideModalHandler={hideModalHandler}></SalesModal>
       )}
     </>
   );
