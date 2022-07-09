@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Chicken Rice",
+    "ingredients": [
+      { "name": "chicken (kg)", "quantity": "0.1" },
+      { "name": "rice (kg)", "quantity": "0.1" }
+    ]
+  },
+  {
+    "name": "French Fries",
+    "ingredients": [{ "name": "fries (kg)", "quantity": "0.1" }]
+  },
+  {
+    "name": "Mashed Potatoes",
+    "ingredients": [{ "name": "potatoes (kg)", "quantity": "0.1" }]
+  },
+  {
+    "name": "Egg rice",
+    "ingredients": [
+      { "name": "eggs", "quantity": "2" },
+      { "name": "rice (kg)", "quantity": "3" }
+    ]
+  }
+]
