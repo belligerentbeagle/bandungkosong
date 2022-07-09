@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Cucumbers",
+    "quantity": 10
+  },
+
+  {
+    "name": "Soy sauce (L)",
+    "quantity": 1.2
+  },
+
+  {
+    "name": "Rice (kg)",
+    "quantity": 5
+  },
+
+  {
+    "name": "Chicken (whole)",
+    "quantity": 20
+  },
+
+  {
+    "name": "Salt (kg)",
+    "quantity": 3
+  },
+
+  {
+    "name": "Sugar (kg)",
+    "quantity": 1
+  },
+
+  {
+    "name": "Eggs",
+    "quantity": 20
+  },
+
+  {
+    "name": "Pork belly (kg)",
+    "quantity": 0.9
+  },
+
+  {
+    "name": "Duck (kg)",
+    "quantity": 1
+  },
+
+  {
+    "name": "Chilli Oil (kg)",
+    "quantity": 0.3
+  }
+]
