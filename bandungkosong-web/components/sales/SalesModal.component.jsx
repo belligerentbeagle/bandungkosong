@@ -10,7 +10,7 @@ const SalesModal = ({ hideModalHandler }) => {
   const addSale = appContext.addSale;
   const [week, setWeek] = useState(sales.length + 1);
   const [inputFields, setInputFields] = useState(
-    recipes.map((recipe) => ({ name: recipe.name, quantity: 50 }))
+    recipes.map((recipe) => ({ name: recipe.name, quantity: 750 }))
   );
 
   const formChangeHandler = (index, event) => {
