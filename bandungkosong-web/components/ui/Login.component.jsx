@@ -32,7 +32,7 @@ const Login = () => {
   return (
     <div className="p-12 w-full rounded-xl border border-gray-200">
       <h2 className="text-2xl font-bold">Login</h2>
-      <form className="mt-8 max-w-md grid grid-cols-1 gap-6">
+      <form className="mt-8 grid grid-cols-1 gap-6">
         <label className="block">
           <span className="text-gray-700">Email address</span>
           <input

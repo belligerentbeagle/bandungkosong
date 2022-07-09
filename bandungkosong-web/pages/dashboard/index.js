@@ -37,7 +37,7 @@ const Dashboard = () => {
   return (
     <div className="w-full h-screen flex">
       <Sidebar changeRouteHandler={changeRouteHandler}></Sidebar>
-      <main>{currentComponent}</main>
+      <main className="p-8 h-full w-full">{currentComponent}</main>
     </div>
   );
 };
