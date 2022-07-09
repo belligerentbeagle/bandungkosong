@@ -1,24 +1,42 @@
 [
   {
-    "name": "Chicken Rice",
+    "name": "300gm Rib-eye",
     "ingredients": [
-      { "name": "chicken (kg)", "quantity": "0.1" },
-      { "name": "rice (kg)", "quantity": "0.1" }
+      { "name": "rib-eye steak", "quantity": 3 },
+      { "name": "olive oil (tbsp)", "quantity": 2 },
+      { "name": "butter (g)", "quantity": 25 },
+      { "name": "garlic", "quantity": 1 },
+      { "name": "salt (tbsp)", "quantity": 1 },
+      { "name": "pepper (tbsp)", "quantity": 2 }
     ]
   },
   {
-    "name": "French Fries",
-    "ingredients": [{ "name": "fries (kg)", "quantity": "0.1" }]
-  },
-  {
-    "name": "Mashed Potatoes",
-    "ingredients": [{ "name": "potatoes (kg)", "quantity": "0.1" }]
-  },
-  {
-    "name": "Egg rice",
+    "name": "300gm Sirloin",
     "ingredients": [
-      { "name": "eggs", "quantity": "2" },
-      { "name": "rice (kg)", "quantity": "3" }
+      { "name": "sirloin steak", "quantity": 3 },
+      { "name": "olive oil (tbsp)", "quantity": 2 },
+      { "name": "butter (g)", "quantity": 25 },
+      { "name": "garlic", "quantity": 1 },
+      { "name": "salt (tbsp)", "quantity": 1 },
+      { "name": "pepper (tbsp)", "quantity": 2 },
+      { "name": "thyme (tbsp)", "quantity": 2 }
+    ]
+  },
+  {
+    "name": "Herb Roasted Chicken",
+    "ingredients": [
+      { "name": "sirloin steak", "quantity": 3 },
+      { "name": "olive oil (tbsp)", "quantity": 2 },
+      { "name": "lemon", "quantity": 25 },
+      { "name": "garlic", "quantity": 1 },
+      { "name": "onion", "quantity": 1 },
+      { "name": "potato", "quantity": 1 },
+      { "name": "salt (tbsp)", "quantity": 3 },
+      { "name": "pepper (tbsp)", "quantity": 5 },
+      { "name": "thyme (tbsp)", "quantity": 4 },
+      { "name": "rosemary (tbsp)", "quantity": 4 },
+      { "name": "parsley (tbsp)", "quantity": 3 },
+      { "name": "chicken stock (cup)", "quantity": 2 }
     ]
   }
 ]

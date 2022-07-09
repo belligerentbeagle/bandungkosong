@@ -1,13 +1,16 @@
-import { useRef, useState } from "react";
+import { useContext, useRef, useState } from "react";
 import SalesForm from "./SalesForm.component";
-import recipesData from "../../data/recipes.json";
+import AppContext from "../../store/context";
 
 const SalesModal = ({ hideModalHandler }) => {
-  const recipes = recipesData;
-
-  const [week, setWeek] = useState();
+  const appContext = useContext(AppContext);
+  const recipes = appContext.recipes;
+  const sales = appContext.sales;
+  const updateIsToastShown = appContext.updateIsToastShown;
+  const addSale = appContext.addSale;
+  const [week, setWeek] = useState(sales.length + 1);
   const [inputFields, setInputFields] = useState(
-    recipes.map((recipe) => ({ name: recipe.name, quantity: 0 }))
+    recipes.map((recipe) => ({ name: recipe.name, quantity: 50 }))
   );
 
   const formChangeHandler = (index, event) => {
@@ -18,14 +21,22 @@ const SalesModal = ({ hideModalHandler }) => {
   };
 
   const submitHandler = () => {
-    const csvContent =
-      "data:text/csv;charset=utf-8,week," +
-      recipes.map((recipe) => recipe.name).join(",") +
-      "\n" +
-      [week, ...inputFields.map((field) => field.quantity)].join(",");
+    //* for potential csv usage
 
-    window.open(encodeURI(csvContent));
+    // const csvContent =
+    //   "data:text/csv;charset=utf-8,week," +
+    //   recipes.map((recipe) => recipe.name).join(",") +
+    //   "\n" +
+    //   [week, ...inputFields.map((field) => field.quantity)].join(",");
 
+    // window.open(encodeURI(csvContent));
+
+    const sale = { time: +week };
+    inputFields.forEach((field) => {
+      sale[field.name] = field.quantity;
+    });
+    addSale(sale);
+    updateIsToastShown(true);
     hideModalHandler();
   };
   return (
@@ -34,12 +45,12 @@ const SalesModal = ({ hideModalHandler }) => {
         <div className="relative p-4 h-full md:h-auto">
           <div className="relative bg-white rounded-lg shadow">
             <div className="flex justify-between items-start p-4 rounded-t border-b">
-              <h3 className="text-xl font-semibold text-gray-900">
-                Add another ingredient
+              <h3 className="text-xl font-semibold text-slate-900">
+                Add weekly sales
               </h3>
               <button
                 type="button"
-                className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
+                className="text-slate-400 bg-transparent hover:bg-slate-200 hover:text-slate-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
                 onClick={hideModalHandler}
               >
                 <svg
@@ -60,21 +71,22 @@ const SalesModal = ({ hideModalHandler }) => {
               <SalesForm
                 formChangeHandler={formChangeHandler}
                 inputFields={inputFields}
+                week={week}
                 setWeek={setWeek}
               ></SalesForm>
             </div>
-            <div className="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200">
+            <div className="flex items-center p-6 space-x-2 rounded-b border-t border-slate-200">
               <button
                 onClick={submitHandler}
                 type="button"
-                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                className="text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
               >
                 Submit
               </button>
               <button
                 onClick={hideModalHandler}
                 type="button"
-                className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10"
+                className="text-slate-500 bg-white hover:bg-slate-100 focus:ring-4 focus:outline-none focus:ring-indigo-300 rounded-lg border border-slate-200 text-sm font-medium px-5 py-2.5 hover:text-slate-900 focus:z-10"
               >
                 Cancel
               </button>

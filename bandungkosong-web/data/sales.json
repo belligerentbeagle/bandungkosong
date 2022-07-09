@@ -1,0 +1,938 @@
+[
+  {
+    "time": 1,
+    "300gm Rib-eye": 1024,
+    "300gm Sirloin": 1030,
+    "Herb Roasted Chicken": 700
+  },
+  {
+    "time": 2,
+    "300gm Rib-eye": 1056,
+    "300gm Sirloin": 986,
+    "Herb Roasted Chicken": 652
+  },
+  {
+    "time": 3,
+    "300gm Rib-eye": 1006,
+    "300gm Sirloin": 963,
+    "Herb Roasted Chicken": 738
+  },
+  {
+    "time": 4,
+    "300gm Rib-eye": 959,
+    "300gm Sirloin": 1057,
+    "Herb Roasted Chicken": 692
+  },
+  {
+    "time": 5,
+    "300gm Rib-eye": 966,
+    "300gm Sirloin": 1008,
+    "Herb Roasted Chicken": 656
+  },
+  {
+    "time": 6,
+    "300gm Rib-eye": 997,
+    "300gm Sirloin": 1073,
+    "Herb Roasted Chicken": 667
+  },
+  {
+    "time": 7,
+    "300gm Rib-eye": 956,
+    "300gm Sirloin": 1029,
+    "Herb Roasted Chicken": 688
+  },
+  {
+    "time": 8,
+    "300gm Rib-eye": 994,
+    "300gm Sirloin": 1024,
+    "Herb Roasted Chicken": 749
+  },
+  {
+    "time": 9,
+    "300gm Rib-eye": 1035,
+    "300gm Sirloin": 1061,
+    "Herb Roasted Chicken": 667
+  },
+  {
+    "time": 10,
+    "300gm Rib-eye": 984,
+    "300gm Sirloin": 1005,
+    "Herb Roasted Chicken": 668
+  },
+  {
+    "time": 11,
+    "300gm Rib-eye": 1031,
+    "300gm Sirloin": 1017,
+    "Herb Roasted Chicken": 656
+  },
+  {
+    "time": 12,
+    "300gm Rib-eye": 1024,
+    "300gm Sirloin": 961,
+    "Herb Roasted Chicken": 723
+  },
+  {
+    "time": 13,
+    "300gm Rib-eye": 955,
+    "300gm Sirloin": 974,
+    "Herb Roasted Chicken": 664
+  },
+  {
+    "time": 14,
+    "300gm Rib-eye": 1094,
+    "300gm Sirloin": 969,
+    "Herb Roasted Chicken": 701
+  },
+  {
+    "time": 15,
+    "300gm Rib-eye": 1074,
+    "300gm Sirloin": 961,
+    "Herb Roasted Chicken": 723
+  },
+  {
+    "time": 16,
+    "300gm Rib-eye": 1047,
+    "300gm Sirloin": 1079,
+    "Herb Roasted Chicken": 730
+  },
+  {
+    "time": 17,
+    "300gm Rib-eye": 966,
+    "300gm Sirloin": 990,
+    "Herb Roasted Chicken": 709
+  },
+  {
+    "time": 18,
+    "300gm Rib-eye": 996,
+    "300gm Sirloin": 992,
+    "Herb Roasted Chicken": 651
+  },
+  {
+    "time": 19,
+    "300gm Rib-eye": 1059,
+    "300gm Sirloin": 1029,
+    "Herb Roasted Chicken": 705
+  },
+  {
+    "time": 20,
+    "300gm Rib-eye": 1031,
+    "300gm Sirloin": 1053,
+    "Herb Roasted Chicken": 678
+  },
+  {
+    "time": 21,
+    "300gm Rib-eye": 1532,
+    "300gm Sirloin": 1510,
+    "Herb Roasted Chicken": 1105
+  },
+  {
+    "time": 22,
+    "300gm Rib-eye": 1569,
+    "300gm Sirloin": 1450,
+    "Herb Roasted Chicken": 984
+  },
+  {
+    "time": 23,
+    "300gm Rib-eye": 1472,
+    "300gm Sirloin": 1603,
+    "Herb Roasted Chicken": 1034
+  },
+  {
+    "time": 24,
+    "300gm Rib-eye": 1590,
+    "300gm Sirloin": 1597,
+    "Herb Roasted Chicken": 994
+  },
+  {
+    "time": 25,
+    "300gm Rib-eye": 1513,
+    "300gm Sirloin": 1538,
+    "Herb Roasted Chicken": 1020
+  },
+  {
+    "time": 26,
+    "300gm Rib-eye": 1542,
+    "300gm Sirloin": 1496,
+    "Herb Roasted Chicken": 1008
+  },
+  {
+    "time": 27,
+    "300gm Rib-eye": 1550,
+    "300gm Sirloin": 1533,
+    "Herb Roasted Chicken": 995
+  },
+  {
+    "time": 28,
+    "300gm Rib-eye": 1463,
+    "300gm Sirloin": 1499,
+    "Herb Roasted Chicken": 977
+  },
+  {
+    "time": 29,
+    "300gm Rib-eye": 1554,
+    "300gm Sirloin": 1560,
+    "Herb Roasted Chicken": 1072
+  },
+  {
+    "time": 30,
+    "300gm Rib-eye": 950,
+    "300gm Sirloin": 969,
+    "Herb Roasted Chicken": 723
+  },
+  {
+    "time": 31,
+    "300gm Rib-eye": 1036,
+    "300gm Sirloin": 1050,
+    "Herb Roasted Chicken": 732
+  },
+  {
+    "time": 32,
+    "300gm Rib-eye": 963,
+    "300gm Sirloin": 959,
+    "Herb Roasted Chicken": 704
+  },
+  {
+    "time": 33,
+    "300gm Rib-eye": 1015,
+    "300gm Sirloin": 1020,
+    "Herb Roasted Chicken": 702
+  },
+  {
+    "time": 34,
+    "300gm Rib-eye": 1019,
+    "300gm Sirloin": 1014,
+    "Herb Roasted Chicken": 704
+  },
+  {
+    "time": 35,
+    "300gm Rib-eye": 1022,
+    "300gm Sirloin": 1015,
+    "Herb Roasted Chicken": 670
+  },
+  {
+    "time": 36,
+    "300gm Rib-eye": 1060,
+    "300gm Sirloin": 1046,
+    "Herb Roasted Chicken": 657
+  },
+  {
+    "time": 37,
+    "300gm Rib-eye": 996,
+    "300gm Sirloin": 1030,
+    "Herb Roasted Chicken": 670
+  },
+  {
+    "time": 38,
+    "300gm Rib-eye": 982,
+    "300gm Sirloin": 1095,
+    "Herb Roasted Chicken": 695
+  },
+  {
+    "time": 39,
+    "300gm Rib-eye": 999,
+    "300gm Sirloin": 992,
+    "Herb Roasted Chicken": 690
+  },
+  {
+    "time": 40,
+    "300gm Rib-eye": 1005,
+    "300gm Sirloin": 971,
+    "Herb Roasted Chicken": 663
+  },
+  {
+    "time": 41,
+    "300gm Rib-eye": 981,
+    "300gm Sirloin": 1017,
+    "Herb Roasted Chicken": 687
+  },
+  {
+    "time": 42,
+    "300gm Rib-eye": 1006,
+    "300gm Sirloin": 1005,
+    "Herb Roasted Chicken": 705
+  },
+  {
+    "time": 43,
+    "300gm Rib-eye": 1034,
+    "300gm Sirloin": 1030,
+    "Herb Roasted Chicken": 666
+  },
+  {
+    "time": 44,
+    "300gm Rib-eye": 1069,
+    "300gm Sirloin": 990,
+    "Herb Roasted Chicken": 708
+  },
+  {
+    "time": 45,
+    "300gm Rib-eye": 1429,
+    "300gm Sirloin": 1521,
+    "Herb Roasted Chicken": 1053
+  },
+  {
+    "time": 46,
+    "300gm Rib-eye": 1608,
+    "300gm Sirloin": 1503,
+    "Herb Roasted Chicken": 981
+  },
+  {
+    "time": 47,
+    "300gm Rib-eye": 1474,
+    "300gm Sirloin": 1582,
+    "Herb Roasted Chicken": 1047
+  },
+  {
+    "time": 48,
+    "300gm Rib-eye": 1512,
+    "300gm Sirloin": 1442,
+    "Herb Roasted Chicken": 1058
+  },
+  {
+    "time": 49,
+    "300gm Rib-eye": 1495,
+    "300gm Sirloin": 1636,
+    "Herb Roasted Chicken": 1094
+  },
+  {
+    "time": 50,
+    "300gm Rib-eye": 1597,
+    "300gm Sirloin": 1452,
+    "Herb Roasted Chicken": 1017
+  },
+  {
+    "time": 51,
+    "300gm Rib-eye": 1490,
+    "300gm Sirloin": 1599,
+    "Herb Roasted Chicken": 1007
+  },
+  {
+    "time": 52,
+    "300gm Rib-eye": 1573,
+    "300gm Sirloin": 1447,
+    "Herb Roasted Chicken": 1003
+  },
+  {
+    "time": 53,
+    "300gm Rib-eye": 1024,
+    "300gm Sirloin": 1030,
+    "Herb Roasted Chicken": 700
+  },
+  {
+    "time": 54,
+    "300gm Rib-eye": 961,
+    "300gm Sirloin": 1016,
+    "Herb Roasted Chicken": 715
+  },
+  {
+    "time": 55,
+    "300gm Rib-eye": 990,
+    "300gm Sirloin": 988,
+    "Herb Roasted Chicken": 682
+  },
+  {
+    "time": 56,
+    "300gm Rib-eye": 1044,
+    "300gm Sirloin": 1056,
+    "Herb Roasted Chicken": 733
+  },
+  {
+    "time": 57,
+    "300gm Rib-eye": 1033,
+    "300gm Sirloin": 1007,
+    "Herb Roasted Chicken": 722
+  },
+  {
+    "time": 58,
+    "300gm Rib-eye": 982,
+    "300gm Sirloin": 1050,
+    "Herb Roasted Chicken": 670
+  },
+  {
+    "time": 59,
+    "300gm Rib-eye": 1050,
+    "300gm Sirloin": 1059,
+    "Herb Roasted Chicken": 706
+  },
+  {
+    "time": 60,
+    "300gm Rib-eye": 1024,
+    "300gm Sirloin": 1097,
+    "Herb Roasted Chicken": 696
+  },
+  {
+    "time": 61,
+    "300gm Rib-eye": 975,
+    "300gm Sirloin": 997,
+    "Herb Roasted Chicken": 674
+  },
+  {
+    "time": 62,
+    "300gm Rib-eye": 1074,
+    "300gm Sirloin": 982,
+    "Herb Roasted Chicken": 699
+  },
+  {
+    "time": 63,
+    "300gm Rib-eye": 1027,
+    "300gm Sirloin": 1060,
+    "Herb Roasted Chicken": 668
+  },
+  {
+    "time": 64,
+    "300gm Rib-eye": 1016,
+    "300gm Sirloin": 1075,
+    "Herb Roasted Chicken": 747
+  },
+  {
+    "time": 65,
+    "300gm Rib-eye": 1023,
+    "300gm Sirloin": 1068,
+    "Herb Roasted Chicken": 671
+  },
+  {
+    "time": 66,
+    "300gm Rib-eye": 1027,
+    "300gm Sirloin": 1080,
+    "Herb Roasted Chicken": 734
+  },
+  {
+    "time": 67,
+    "300gm Rib-eye": 987,
+    "300gm Sirloin": 1024,
+    "Herb Roasted Chicken": 661
+  },
+  {
+    "time": 68,
+    "300gm Rib-eye": 987,
+    "300gm Sirloin": 1046,
+    "Herb Roasted Chicken": 721
+  },
+  {
+    "time": 69,
+    "300gm Rib-eye": 1067,
+    "300gm Sirloin": 1100,
+    "Herb Roasted Chicken": 671
+  },
+  {
+    "time": 70,
+    "300gm Rib-eye": 971,
+    "300gm Sirloin": 1070,
+    "Herb Roasted Chicken": 703
+  },
+  {
+    "time": 71,
+    "300gm Rib-eye": 977,
+    "300gm Sirloin": 1019,
+    "Herb Roasted Chicken": 720
+  },
+  {
+    "time": 72,
+    "300gm Rib-eye": 1072,
+    "300gm Sirloin": 1075,
+    "Herb Roasted Chicken": 652
+  },
+  {
+    "time": 73,
+    "300gm Rib-eye": 1519,
+    "300gm Sirloin": 1622,
+    "Herb Roasted Chicken": 1067
+  },
+  {
+    "time": 74,
+    "300gm Rib-eye": 1518,
+    "300gm Sirloin": 1439,
+    "Herb Roasted Chicken": 1009
+  },
+  {
+    "time": 75,
+    "300gm Rib-eye": 1603,
+    "300gm Sirloin": 1436,
+    "Herb Roasted Chicken": 1105
+  },
+  {
+    "time": 76,
+    "300gm Rib-eye": 1458,
+    "300gm Sirloin": 1446,
+    "Herb Roasted Chicken": 1079
+  },
+  {
+    "time": 77,
+    "300gm Rib-eye": 1444,
+    "300gm Sirloin": 1616,
+    "Herb Roasted Chicken": 1047
+  },
+  {
+    "time": 78,
+    "300gm Rib-eye": 1469,
+    "300gm Sirloin": 1643,
+    "Herb Roasted Chicken": 986
+  },
+  {
+    "time": 79,
+    "300gm Rib-eye": 1564,
+    "300gm Sirloin": 1557,
+    "Herb Roasted Chicken": 1093
+  },
+  {
+    "time": 80,
+    "300gm Rib-eye": 1550,
+    "300gm Sirloin": 1576,
+    "Herb Roasted Chicken": 1081
+  },
+  {
+    "time": 81,
+    "300gm Rib-eye": 1538,
+    "300gm Sirloin": 1631,
+    "Herb Roasted Chicken": 1114
+  },
+  {
+    "time": 82,
+    "300gm Rib-eye": 1089,
+    "300gm Sirloin": 994,
+    "Herb Roasted Chicken": 709
+  },
+  {
+    "time": 83,
+    "300gm Rib-eye": 1091,
+    "300gm Sirloin": 1004,
+    "Herb Roasted Chicken": 685
+  },
+  {
+    "time": 84,
+    "300gm Rib-eye": 997,
+    "300gm Sirloin": 950,
+    "Herb Roasted Chicken": 740
+  },
+  {
+    "time": 85,
+    "300gm Rib-eye": 1069,
+    "300gm Sirloin": 1013,
+    "Herb Roasted Chicken": 662
+  },
+  {
+    "time": 86,
+    "300gm Rib-eye": 950,
+    "300gm Sirloin": 1021,
+    "Herb Roasted Chicken": 668
+  },
+  {
+    "time": 87,
+    "300gm Rib-eye": 983,
+    "300gm Sirloin": 1026,
+    "Herb Roasted Chicken": 675
+  },
+  {
+    "time": 88,
+    "300gm Rib-eye": 953,
+    "300gm Sirloin": 1058,
+    "Herb Roasted Chicken": 656
+  },
+  {
+    "time": 89,
+    "300gm Rib-eye": 1067,
+    "300gm Sirloin": 1049,
+    "Herb Roasted Chicken": 659
+  },
+  {
+    "time": 90,
+    "300gm Rib-eye": 1041,
+    "300gm Sirloin": 1070,
+    "Herb Roasted Chicken": 706
+  },
+  {
+    "time": 91,
+    "300gm Rib-eye": 1011,
+    "300gm Sirloin": 1005,
+    "Herb Roasted Chicken": 675
+  },
+  {
+    "time": 92,
+    "300gm Rib-eye": 1034,
+    "300gm Sirloin": 1061,
+    "Herb Roasted Chicken": 701
+  },
+  {
+    "time": 93,
+    "300gm Rib-eye": 1039,
+    "300gm Sirloin": 1052,
+    "Herb Roasted Chicken": 673
+  },
+  {
+    "time": 94,
+    "300gm Rib-eye": 1022,
+    "300gm Sirloin": 1025,
+    "Herb Roasted Chicken": 721
+  },
+  {
+    "time": 95,
+    "300gm Rib-eye": 1062,
+    "300gm Sirloin": 1066,
+    "Herb Roasted Chicken": 725
+  },
+  {
+    "time": 96,
+    "300gm Rib-eye": 1005,
+    "300gm Sirloin": 966,
+    "Herb Roasted Chicken": 734
+  },
+  {
+    "time": 97,
+    "300gm Rib-eye": 1519,
+    "300gm Sirloin": 1565,
+    "Herb Roasted Chicken": 1024
+  },
+  {
+    "time": 98,
+    "300gm Rib-eye": 1518,
+    "300gm Sirloin": 1648,
+    "Herb Roasted Chicken": 1015
+  },
+  {
+    "time": 99,
+    "300gm Rib-eye": 1644,
+    "300gm Sirloin": 1628,
+    "Herb Roasted Chicken": 991
+  },
+  {
+    "time": 100,
+    "300gm Rib-eye": 1640,
+    "300gm Sirloin": 1469,
+    "Herb Roasted Chicken": 989
+  },
+  {
+    "time": 101,
+    "300gm Rib-eye": 1559,
+    "300gm Sirloin": 1617,
+    "Herb Roasted Chicken": 1121
+  },
+  {
+    "time": 102,
+    "300gm Rib-eye": 1566,
+    "300gm Sirloin": 1636,
+    "Herb Roasted Chicken": 1024
+  },
+  {
+    "time": 103,
+    "300gm Rib-eye": 1491,
+    "300gm Sirloin": 1457,
+    "Herb Roasted Chicken": 1109
+  },
+  {
+    "time": 104,
+    "300gm Rib-eye": 1571,
+    "300gm Sirloin": 1485,
+    "Herb Roasted Chicken": 1018
+  },
+  {
+    "time": 105,
+    "300gm Rib-eye": 1024,
+    "300gm Sirloin": 1030,
+    "Herb Roasted Chicken": 700
+  },
+  {
+    "time": 106,
+    "300gm Rib-eye": 1078,
+    "300gm Sirloin": 1100,
+    "Herb Roasted Chicken": 735
+  },
+  {
+    "time": 107,
+    "300gm Rib-eye": 972,
+    "300gm Sirloin": 1087,
+    "Herb Roasted Chicken": 745
+  },
+  {
+    "time": 108,
+    "300gm Rib-eye": 1053,
+    "300gm Sirloin": 1094,
+    "Herb Roasted Chicken": 670
+  },
+  {
+    "time": 109,
+    "300gm Rib-eye": 1054,
+    "300gm Sirloin": 973,
+    "Herb Roasted Chicken": 730
+  },
+  {
+    "time": 110,
+    "300gm Rib-eye": 1044,
+    "300gm Sirloin": 967,
+    "Herb Roasted Chicken": 738
+  },
+  {
+    "time": 111,
+    "300gm Rib-eye": 989,
+    "300gm Sirloin": 1071,
+    "Herb Roasted Chicken": 716
+  },
+  {
+    "time": 112,
+    "300gm Rib-eye": 1004,
+    "300gm Sirloin": 1013,
+    "Herb Roasted Chicken": 701
+  },
+  {
+    "time": 113,
+    "300gm Rib-eye": 1002,
+    "300gm Sirloin": 1077,
+    "Herb Roasted Chicken": 658
+  },
+  {
+    "time": 114,
+    "300gm Rib-eye": 1057,
+    "300gm Sirloin": 971,
+    "Herb Roasted Chicken": 683
+  },
+  {
+    "time": 115,
+    "300gm Rib-eye": 1091,
+    "300gm Sirloin": 1092,
+    "Herb Roasted Chicken": 671
+  },
+  {
+    "time": 116,
+    "300gm Rib-eye": 1069,
+    "300gm Sirloin": 1006,
+    "Herb Roasted Chicken": 726
+  },
+  {
+    "time": 117,
+    "300gm Rib-eye": 1053,
+    "300gm Sirloin": 1072,
+    "Herb Roasted Chicken": 676
+  },
+  {
+    "time": 118,
+    "300gm Rib-eye": 954,
+    "300gm Sirloin": 1030,
+    "Herb Roasted Chicken": 672
+  },
+  {
+    "time": 119,
+    "300gm Rib-eye": 1028,
+    "300gm Sirloin": 986,
+    "Herb Roasted Chicken": 712
+  },
+  {
+    "time": 120,
+    "300gm Rib-eye": 1094,
+    "300gm Sirloin": 1070,
+    "Herb Roasted Chicken": 667
+  },
+  {
+    "time": 121,
+    "300gm Rib-eye": 1083,
+    "300gm Sirloin": 1076,
+    "Herb Roasted Chicken": 676
+  },
+  {
+    "time": 122,
+    "300gm Rib-eye": 1035,
+    "300gm Sirloin": 966,
+    "Herb Roasted Chicken": 658
+  },
+  {
+    "time": 123,
+    "300gm Rib-eye": 1089,
+    "300gm Sirloin": 961,
+    "Herb Roasted Chicken": 656
+  },
+  {
+    "time": 124,
+    "300gm Rib-eye": 1033,
+    "300gm Sirloin": 1100,
+    "Herb Roasted Chicken": 737
+  },
+  {
+    "time": 125,
+    "300gm Rib-eye": 1427,
+    "300gm Sirloin": 1465,
+    "Herb Roasted Chicken": 1020
+  },
+  {
+    "time": 126,
+    "300gm Rib-eye": 1452,
+    "300gm Sirloin": 1644,
+    "Herb Roasted Chicken": 1080
+  },
+  {
+    "time": 127,
+    "300gm Rib-eye": 1427,
+    "300gm Sirloin": 1523,
+    "Herb Roasted Chicken": 986
+  },
+  {
+    "time": 128,
+    "300gm Rib-eye": 1451,
+    "300gm Sirloin": 1560,
+    "Herb Roasted Chicken": 1021
+  },
+  {
+    "time": 129,
+    "300gm Rib-eye": 1537,
+    "300gm Sirloin": 1499,
+    "Herb Roasted Chicken": 1055
+  },
+  {
+    "time": 130,
+    "300gm Rib-eye": 1449,
+    "300gm Sirloin": 1508,
+    "Herb Roasted Chicken": 1033
+  },
+  {
+    "time": 131,
+    "300gm Rib-eye": 1569,
+    "300gm Sirloin": 1588,
+    "Herb Roasted Chicken": 1003
+  },
+  {
+    "time": 132,
+    "300gm Rib-eye": 1560,
+    "300gm Sirloin": 1623,
+    "Herb Roasted Chicken": 1018
+  },
+  {
+    "time": 133,
+    "300gm Rib-eye": 1464,
+    "300gm Sirloin": 1613,
+    "Herb Roasted Chicken": 1065
+  },
+  {
+    "time": 134,
+    "300gm Rib-eye": 972,
+    "300gm Sirloin": 991,
+    "Herb Roasted Chicken": 684
+  },
+  {
+    "time": 135,
+    "300gm Rib-eye": 1068,
+    "300gm Sirloin": 966,
+    "Herb Roasted Chicken": 697
+  },
+  {
+    "time": 136,
+    "300gm Rib-eye": 1004,
+    "300gm Sirloin": 1080,
+    "Herb Roasted Chicken": 726
+  },
+  {
+    "time": 137,
+    "300gm Rib-eye": 1062,
+    "300gm Sirloin": 970,
+    "Herb Roasted Chicken": 710
+  },
+  {
+    "time": 138,
+    "300gm Rib-eye": 992,
+    "300gm Sirloin": 1008,
+    "Herb Roasted Chicken": 662
+  },
+  {
+    "time": 139,
+    "300gm Rib-eye": 1048,
+    "300gm Sirloin": 1097,
+    "Herb Roasted Chicken": 655
+  },
+  {
+    "time": 140,
+    "300gm Rib-eye": 1094,
+    "300gm Sirloin": 1023,
+    "Herb Roasted Chicken": 734
+  },
+  {
+    "time": 141,
+    "300gm Rib-eye": 987,
+    "300gm Sirloin": 969,
+    "Herb Roasted Chicken": 664
+  },
+  {
+    "time": 142,
+    "300gm Rib-eye": 1046,
+    "300gm Sirloin": 963,
+    "Herb Roasted Chicken": 676
+  },
+  {
+    "time": 143,
+    "300gm Rib-eye": 1064,
+    "300gm Sirloin": 1028,
+    "Herb Roasted Chicken": 693
+  },
+  {
+    "time": 144,
+    "300gm Rib-eye": 1017,
+    "300gm Sirloin": 1057,
+    "Herb Roasted Chicken": 700
+  },
+  {
+    "time": 145,
+    "300gm Rib-eye": 1012,
+    "300gm Sirloin": 1082,
+    "Herb Roasted Chicken": 662
+  },
+  {
+    "time": 146,
+    "300gm Rib-eye": 969,
+    "300gm Sirloin": 1090,
+    "Herb Roasted Chicken": 667
+  },
+  {
+    "time": 147,
+    "300gm Rib-eye": 1058,
+    "300gm Sirloin": 995,
+    "Herb Roasted Chicken": 734
+  },
+  {
+    "time": 148,
+    "300gm Rib-eye": 1005,
+    "300gm Sirloin": 1040,
+    "Herb Roasted Chicken": 691
+  },
+  {
+    "time": 149,
+    "300gm Rib-eye": 1435,
+    "300gm Sirloin": 1523,
+    "Herb Roasted Chicken": 1052
+  },
+  {
+    "time": 150,
+    "300gm Rib-eye": 1594,
+    "300gm Sirloin": 1595,
+    "Herb Roasted Chicken": 997
+  },
+  {
+    "time": 151,
+    "300gm Rib-eye": 1583,
+    "300gm Sirloin": 1482,
+    "Herb Roasted Chicken": 1005
+  },
+  {
+    "time": 152,
+    "300gm Rib-eye": 1478,
+    "300gm Sirloin": 1461,
+    "Herb Roasted Chicken": 1016
+  },
+  {
+    "time": 153,
+    "300gm Rib-eye": 1586,
+    "300gm Sirloin": 1570,
+    "Herb Roasted Chicken": 994
+  },
+  {
+    "time": 154,
+    "300gm Rib-eye": 1546,
+    "300gm Sirloin": 1485,
+    "Herb Roasted Chicken": 988
+  },
+  {
+    "time": 155,
+    "300gm Rib-eye": 1633,
+    "300gm Sirloin": 1516,
+    "Herb Roasted Chicken": 1117
+  },
+  {
+    "time": 156,
+    "300gm Rib-eye": 1547,
+    "300gm Sirloin": 1632,
+    "Herb Roasted Chicken": 1059
+  }
+]

@@ -1,8 +1,10 @@
-import { useEffect, useState } from "react";
-import Breakdown from "../../components/ui/Breakdown.component";
-import Data from "../../components/ui/Data.component";
-import Dishes from "../../components/ui/Dishes.component";
+import { useContext, useEffect, useState } from "react";
+import Breakdown from "../../components/Breakdown.component";
+import Data from "../../components/sales/SalesData.component";
+import Dishes from "../../components/Dishes.component";
 import Sidebar from "../../components/ui/Sidebar.component";
+import Toast from "../../components/ui/Toast.component";
+import AppContext from "../../store/context";
 
 const Dashboard = () => {
   // I forgot how to do proper dynamic components
@@ -10,7 +12,9 @@ const Dashboard = () => {
     <Breakdown></Breakdown>
   );
 
-  const [currentSlug, setCurrentSlug] = useState("breakdown");
+  const appContext = useContext(AppContext);
+  const currentSlug = appContext.currentSlug;
+  const isToastShown = appContext.isToastShown;
 
   useEffect(() => {
     let newComponent;
@@ -32,12 +36,11 @@ const Dashboard = () => {
     setCurrentComponent(newComponent);
   }, [currentSlug]);
 
-  const changeRouteHandler = (slug) => setCurrentSlug(slug);
-
   return (
     <div className="w-full h-screen flex">
-      <Sidebar changeRouteHandler={changeRouteHandler}></Sidebar>
+      <Sidebar></Sidebar>
       <main className="p-8 h-full w-full">{currentComponent}</main>
+      {isToastShown && <Toast></Toast>}
     </div>
   );
 };

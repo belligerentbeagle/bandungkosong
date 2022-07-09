@@ -1,7 +1,8 @@
 import { useState } from "react";
+import SalesChart from "./SalesChart.component";
 import SalesModal from "./SalesModal.component";
 
-const Data = () => {
+const SalesData = () => {
   const [isFormShown, setIsFormShown] = useState(false);
 
   const showModalHandler = () => setIsFormShown(true);
@@ -12,7 +13,7 @@ const Data = () => {
       <h1 className="text-3xl font-bold mb-4">Your Data</h1>
       <div className="mb-6 flex items-center gap-3">
         <button
-          className="border border-gray-400 py-1 px-3 rounded-lg flex items-center gap-2"
+          className="border border-slate-400 py-1 px-3 rounded-lg flex items-center gap-2"
           onClick={showModalHandler}
         >
           <span className="text-xl">&#65291;</span>
@@ -20,7 +21,9 @@ const Data = () => {
         </button>
         <div className="text-lg">for July</div>
       </div>
-      <div className="h-5/6 w-full rounded-xl border"></div>
+      <div className="h-5/6 w-full rounded-xl border">
+        <SalesChart></SalesChart>
+      </div>
       {isFormShown && (
         <SalesModal hideModalHandler={hideModalHandler}></SalesModal>
       )}
@@ -28,4 +31,4 @@ const Data = () => {
   );
 };
 
-export default Data;
+export default SalesData;
