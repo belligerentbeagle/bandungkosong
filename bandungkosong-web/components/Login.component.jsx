@@ -26,7 +26,7 @@ const Login = () => {
         pathname: "/dashboard",
       });
 
-    setError("incorrect credentials");
+    setError("incorrect credentials (use placeholder)");
   };
 
   return (
